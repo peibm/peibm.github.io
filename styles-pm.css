@@ -31,6 +31,7 @@ p{
   width: 15vw;
   margin-left: 10vw;
   -webkit-filter: grayscale(100%);
+  filter: grayscale(100%)
 }
 
 #portrait:hover {
@@ -74,9 +75,10 @@ p{
 .section > div,
 #feature {
   -webkit-box-align: center;
+  -moz-box-align: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 700px;
+  max-width: 900px; 
   box-sizing: border-box;
   font-family: "National 2 narrow web", sans-serif;
   font-weight: 500;
@@ -95,6 +97,7 @@ p{
 #aboutme + p {
   margin-right: 60px;
   margin-left: 60px;
+  font-size: 1.2vw;
 }
 
 #feature > p {
